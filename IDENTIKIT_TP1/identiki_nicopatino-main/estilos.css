@@ -1,0 +1,121 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+p {
+  color: aliceblue;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h1 {
+  color: aliceblue;
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h2 {
+  color: aliceblue;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+blockquote {
+  color: aliceblue;
+  font-family: cursive;
+}
+table {
+  color: aliceblue;
+  font-family: cursive;
+}
+ul{
+  color: aliceblue;
+  font-family: cursive;
+}
+.iconos {
+  color: aliceblue;
+}
+.TablaDeGustos {
+  text-align: center;
+}
+a{
+  color: yellow;
+  text-decoration: none;
+}
+#nav a:hover{
+  color: rgb(242, 255, 0);
+}
+
+/*Fonde de pagina*/
+body {
+  background-image: url(./imagenes/paisaje-digital-en-atardecer_3840x2160_xtrafondos.com.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Section*/
+section {
+  background-color: #64357fa7;
+  width: 700px;
+  border-radius: 12px;
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+/*Imagenes*/
+.imgstarwars {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.imgvideojuegos {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.imganime {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.imgalteismo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+head{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+#nav li {
+    display: inline;
+    margin-right: 18px;
+}
+#nav a{
+    background-color: rgba(171, 0, 233, 0.26);
+    padding: 12px 24px;
+    display: inline-block;
+}
+#nav a:hover {
+    background-color: rgba(171, 0, 233, 0.508);
+    color: rgb(238, 255, 0); 
+    padding: 12px 24px; 
+    border-radius: 4px; 
+}
+#BarraDeNavegacion {
+    background-color: rgba(0, 0, 0, 0.382);
+    margin: 0;
+    padding: 8px 0; 
+    text-align: right;
+}
+        .footer{
+            text-align: center;
+            padding-top: 10px;
+            background-color: rgba(88, 0, 143, 0.636);
+            margin-right: 600px;
+            margin-left: 600px;
+            border-radius: 35px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }

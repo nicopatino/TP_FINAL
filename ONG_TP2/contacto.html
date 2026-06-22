@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<!-- Documento HTML principal de la página de contacto de la ONG Agua Viva -->
+<html lang="es">
+<head>
+  <!-- Metadatos y carga de estilos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydra</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./Imagenes_ong/logo_solo.png">
+</head>
+<body>
+<script src="scripts.js"></script>
+  <!-- Barra de navegación -->
+  <header>
+    <div class="container nav">
+      <img src="./Imagenes_ong/logo_nd.png" alt="Logo de Agua Viva" class="logo">
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobreNosotros.html">Sobre nosostros</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a class="button primary" href="donar.html">Donar</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="abrirMenu()" aria-expanded="false" aria-label="Abrir menú">≡</button>
+      </nav>
+    </div>
+  </header>
+  <!-- Fin de la barra de navegación -->
+
+  <main class="section">
+    <div class="container">
+      <div class="contact-card">
+        <h2>Contactanos</h2>
+        <p>Completá estos datos y te responderemos a la brevedad.</p>
+        <form class="contact-form">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej. María López" required>
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+          <label for="asunto">Asunto</label>
+          <input type="text" id="asunto" name="asunto" placeholder="Consulta sobre donaciones" required>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí" required></textarea>
+
+          <button type="submit" class="button primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Inicio del footer -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Sección 1: Información de la ONG -->
+      <div class="footer-section">
+        <h3>Hydra</h3>
+        <p>Mas que una ONG</p>
+        <img src="./Imagenes_ong/logo_solo.png" alt="Imagen de la ONG" id="logo-footer">
+      </div>
+      <!-- Sección 3: Redes sociales -->
+      <div class="footer-section">
+        <h4>Seguinos</h4>
+        <div class="social-icons">
+          <a class="social-icon"><img src="./Imagenes_ong/facebook.png" alt="Facebook"></a>
+          <a class="social-icon"><img src="./Imagenes_ong/instagram (1).png" alt="Instagram"></a>
+          <a class="social-icon"><img src="./Imagenes_ong/gorjeo.png" alt="Twitter"></a>
+          <a class="social-icon"><img src="./Imagenes_ong/tik-tok.png" alt="TikTok"></a>
+          <p>¡Seguinos en nuestras redes sociales para estar al tanto de nuestras actividades y proyectos!</p>
+        </div>
+      </div>
+      <!-- Sección 4: Información de contacto -->
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <p><strong>Email: </strong>info@hydra.org</p>
+        <p><strong>Teléfono:</strong> +54 9 11 749 7492</p>
+        <p><strong>Dirección:</strong> Av. Siempre Viva 123, CABA</p>
+      </div>
+    </div>
+
+    <!-- Línea de separación y copyright -->
+    <div class="footer-bottom">
+      <p>&copy; 2026 ONG Hydra. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <!-- Fin del footer -->
+
+</body>
+</html>

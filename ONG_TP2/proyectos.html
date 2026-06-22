@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydra</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./Imagenes_ong/logo_solo.png">
+</head>
+<body class="projects-page">
+<script src="scripts.js"></script>
+  <!-- Barra de navegación -->
+  <header>
+    <div class="container nav">
+      <img src="./Imagenes_ong/logo_nd.png" alt="Logo de Agua Viva" class="logo">
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobreNosotros.html">Sobre nosostros</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a class="button primary" href="donar.html">Donar</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="abrirMenu()" aria-expanded="false" aria-label="Abrir menú">≡</button>
+      </nav>
+    </div>
+  </header>
+  <!-- Fin de la barra de navegación -->
+
+  <!-- Contenido principal -->
+  <main>
+    <div class="section">
+      <div class="container">
+        <h2>Proyectos recientes</h2>
+        <picture>
+          <source media="(max-width: 600px)" srcset="./Imagenes_ong/pictureONG2.png">
+          <img src="./Imagenes_ong/pictureONG.png" alt="Imagen de proyectos de la ONG" class="main-image-projects">
+        </picture>
+        <div class="grid cards">
+          <article class="card"><div class="card-body"><h3 class="card-title">Gota digital</h3><p class="card-text">Consiste en la instalación de sensores de bajo costo en las redes de agua comunitarias y camiones cisterna que abastecen a barrios periféricos. Estos sensores miden en tiempo real la presión, la calidad del agua y el nivel de los tanques comunitarios.</p></div></article>
+          <article class="card"><div class="card-body"><h3 class="card-title">Escuelas de Lluvia</h3><p class="card-text">Se basa en el diseño e instalación de sistemas masivos de captación de agua de lluvia en los techos de los establecimientos educativos. El proyecto incluye la colocación de filtros de carbón activado y sistemas de purificación biológica (como humedales artificiales) para que el agua sea 100% segura para el consumo y el riego de huertas escolares.</p></div></article>
+          <article class="card"><div class="card-body"><h3 class="card-title">Guardianes del Agua</h3><p class="card-text">El proyecto transforma la educación ambiental tradicional en una experiencia interactiva (gamificada). En lugar de solo escuchar una charla, los alumnos se convierten en "Guardianes del Agua" y tienen que cumplir misiones reales en su escuela y sus hogares.</p></div></article>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Fin del contenido principal  -->
+
+  <!-- Inicio del footer -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Sección 1: Información de la ONG -->
+      <div class="footer-section">
+        <h3>Hydra</h3>
+        <p>Mas que una ONG</p>
+        <img src="./Imagenes_ong/logo_solo.png" alt="Imagen de la ONG" id="logo-footer">
+      </div>
+      <!-- Sección 3: Redes sociales -->
+      <div class="footer-section">
+        <h4>Seguinos</h4>
+        <div class="social-icons">
+          <a class="social-icon"><img src="./Imagenes_ong/facebook.png" alt="Facebook"></a>
+          <a class="social-icon"><img src="./Imagenes_ong/instagram (1).png" alt="Instagram"></a>
+          <a class="social-icon"><img src="./Imagenes_ong/gorjeo.png" alt="Twitter"></a>
+          <a class="social-icon"><img src="./Imagenes_ong/tik-tok.png" alt="TikTok"></a>
+          <p>¡Seguinos en nuestras redes sociales para estar al tanto de nuestras actividades y proyectos!</p>
+        </div>
+      </div>
+      <!-- Sección 4: Información de contacto -->
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <p><strong>Email: </strong>info@hydra.org</p>
+        <p><strong>Teléfono:</strong> +54 9 11 749 7492</p>
+        <p><strong>Dirección:</strong> Av. Siempre Viva 123, CABA</p>
+      </div>
+    </div>
+
+    <!-- Línea de separación y copyright -->
+    <div class="footer-bottom">
+      <p>&copy; 2026 ONG Hydra. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <!-- Fin del footer -->
+
+</body>
+</html>
